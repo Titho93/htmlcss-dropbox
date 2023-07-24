@@ -299,9 +299,19 @@ h4 {
 .binder {
   display: flex;
   justify-content: space-between;
-  width: calc(100 / 3 - 20px);
+  flex-wrap: wrap;
 }
 
 .cards {
   padding: 50px 30px;
+  width: 330px;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.cards p {
+  padding-top: 30px;
+  font-size: 17px;
 }
