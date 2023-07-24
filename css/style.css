@@ -81,6 +81,7 @@ nav li:hover {
 
 button {
   background-color: blue;
+  font-size: 18px;
   color: white;
   padding: 15px;
   border: none;
@@ -114,7 +115,7 @@ h1 {
   left: 390px;
 }
 
-.image {
+.image-jumbo .image {
   width: 750px;
 }
 
@@ -133,6 +134,8 @@ h1 {
 }
 
 /* MAIN  */
+
+/* plan  */
 
 .plan {
   padding-top: 150px;
@@ -157,6 +160,8 @@ h3 {
 
 .choice {
   width: calc(100% / 3 - 20px);
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
@@ -164,13 +169,14 @@ h3 {
   flex-direction: column;
   border: 1px solid gray;
   padding: 25px;
-  height: 850px;
+  flex-grow: 2;
 }
 
 .member {
   border: 1px solid gray;
   padding: 10px;
   text-align: center;
+  flex-grow: 0;
 }
 
 h5 {
@@ -251,4 +257,39 @@ hr {
   padding: 10px 30px;
   right: 20px;
   top: 20px;
+}
+
+/* Partner  */
+
+.partner {
+  padding: 150px 0;
+}
+
+.partner .container-small {
+  display: flex;
+}
+
+.partner .image img {
+  width: 600px;
+  flex-grow: 2;
+}
+
+.partner .partner-box {
+  flex-grow: 1;
+  padding: 50px 50px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.partner-box p {
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+.partner-box button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
