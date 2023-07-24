@@ -22,7 +22,7 @@ body {
 .container-small {
   margin: 0 auto;
   width: 90%;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 /* HEADER  */
@@ -36,6 +36,7 @@ nav {
   padding: 0 10px;
   width: 100vw;
   position: fixed;
+  z-index: 999;
 }
 
 .logo {
@@ -50,25 +51,25 @@ nav {
   display: flex;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-around;
 }
 
-li {
+nav li {
   line-height: 40px;
   list-style: none;
   font-size: 18px;
   padding: 20px 10px;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: black;
 }
 
 
-li:hover {
+nav li:hover {
   border-bottom: 2px solid blue;
 }
 
@@ -143,9 +144,43 @@ h3 {
 }
 
 .selection {
+  display: flex;
+  justify-content: space-between;
+}
 
+.choice {
+  width: calc(100% / 3 - 20px);
 }
 
 .content {
   display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 25px;
 }
+
+.member {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+.content h5 {
+  font-size: 20px;
+}
+
+.content .price {
+  font-size: 12px;
+  padding: 15px 0;
+}
+
+.content .month {
+  color: gray;
+}
+
+.content ul {
+  list-style: none;
+  padding: 40px 0;
+}
+
+
