@@ -8,6 +8,12 @@
   background-color: violet;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   width: 100vw;
@@ -183,4 +189,32 @@ h3 {
   padding: 40px 0;
 }
 
+.content li {
+  padding: 10px 0;
+}
 
+.pay-link {
+  padding: 30px 0;
+}
+
+hr {
+  width: 50px;
+  color: gray;
+}
+
+.check-list {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.icon {
+  float: inline-start;
+  padding-right: 5px;
+  padding-bottom: 17px;
+}
+
+.check {
+  color: blue;
+  float: inline-start;
+  padding-right: 5px;
+}
