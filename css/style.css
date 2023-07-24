@@ -303,7 +303,7 @@ h4 {
 }
 
 .cards {
-  padding: 50px 30px;
+  padding: 50px 20px;
   width: 330px;
 }
 
@@ -314,4 +314,15 @@ h4 {
 .cards p {
   padding-top: 30px;
   font-size: 17px;
+}
+
+/* Clients  */
+
+.clients {
+  padding: 150px 0;
+}
+
+.clients h3 {
+  width: 600px;
+  padding-bottom: 60px;
 }
