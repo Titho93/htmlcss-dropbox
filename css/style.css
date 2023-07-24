@@ -8,3 +8,67 @@
   background-color: violet;
 }
 
+body {
+  width: 100vw;
+}
+
+.container-big {
+  width: 90%;
+  max-width: 1500px;
+}
+
+.container-small {
+  width: 85%;
+  max-width: 1500px;
+}
+
+/* HEADER  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 100vw;
+  position: fixed;
+}
+
+.logo {
+  padding: 25px 5px;
+}
+
+.info-left {
+  display: flex;
+}
+
+.info-right {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  line-height: 40px;
+  list-style: none;
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+li:hover {
+  border-bottom: 2px solid blue;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+
