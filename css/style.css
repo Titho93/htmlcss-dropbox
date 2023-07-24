@@ -84,6 +84,7 @@ button {
   color: white;
   padding: 15px;
   border: none;
+  cursor: pointer;
 }
 
 /* JUMBOTRON  */
@@ -223,4 +224,31 @@ hr {
 
 .enterprise {
   padding-top: 50px;
+}
+
+.contact {
+  border: 1px solid gray;
+  padding: 25px;
+  position: relative;
+}
+
+.contact h5 {
+  padding-bottom: 20px;
+}
+
+.contact p {
+  padding: 20px 0;
+  width: 60%;
+}
+
+.contact span {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.enterprise button {
+  position: absolute;
+  padding: 10px 30px;
+  right: 20px;
+  top: 20px;
 }
