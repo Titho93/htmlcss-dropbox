@@ -408,3 +408,21 @@ h4 {
 .darkred {
   background-color: #D5061F;
 }
+
+.square-big:nth-child(2) {
+  padding: 50px 50px;
+}
+
+.svg img {
+  width: 50%;
+}
+
+.bio span {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.svg hr {
+  width: 100px;
+  margin-top: 50px;
+}
