@@ -17,6 +17,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .container-big {
@@ -79,6 +80,11 @@ nav li:hover {
   border-bottom: 2px solid blue;
 }
 
+.nav-button {
+  line-height: 80px;
+  padding-right: 10px;
+}
+
 button {
   background-color: blue;
   font-size: 18px;
@@ -86,6 +92,10 @@ button {
   padding: 15px;
   border: none;
   cursor: pointer;
+}
+
+.nav-button button {
+  padding: 5px 10px;
 }
 
 /* JUMBOTRON  */
@@ -131,6 +141,10 @@ h1 {
   font-size: 45px;
   margin-top: 70px;
   margin-bottom: 10px;
+}
+
+.arrow a {
+  color: black;
 }
 
 /* MAIN  */
@@ -325,4 +339,67 @@ h4 {
 .clients h3 {
   width: 600px;
   padding-bottom: 60px;
+}
+
+/* Partners  */
+
+.partners {
+  background-color: gray;
+}
+
+.square-big {
+  background-color: #F5F5F5;
+  float: left;
+  width: 33%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.square img {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  filter: invert(100%) sepia(94%) saturate(0%) hue-rotate(241deg) brightness(106%) contrast(106%); 
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.bordeaux {
+  background-color: #61082B;
+}
+
+.cyan {
+  background-color: #0093CE;
+}
+
+.blue {
+  background-color: #0D2481;
+}
+
+.yellow {
+  background-color: #FFD82F;
+}
+
+.lightblue {
+  background-color: #B4D0E7;
+}
+
+.darkred {
+  background-color: #D5061F;
 }
