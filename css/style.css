@@ -520,3 +520,24 @@ footer hr {
 .footer-bottom span {
   color: white;
 }
+
+/* Bonus  */
+
+.none {
+  padding-top: 30px;
+  display: none;
+}
+
+.none a {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+
+.request:hover .none {
+  display: block;
+}
+
+.request:hover .chevron .fa-solid {
+  display: none;
+}
