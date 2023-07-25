@@ -465,3 +465,38 @@ h4 {
   position: absolute;
   right: 40px;
 }
+
+/* Footer  */
+
+footer {
+  background-color: black;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.column {
+  width: 170px;
+}
+
+.column h5 {
+  color: white;
+  padding-bottom: 35px;
+}
+
+.column li {
+  padding-bottom: 15px;
+}
+
+.column li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer hr {
+  width: 120px;
+  color: white;
+}
