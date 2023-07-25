@@ -444,3 +444,24 @@ h4 {
   border: 1px solid black;
   padding: 15px 60px;
 }
+
+.question .container-small {
+  padding: 150px 0;
+}
+
+.question h3 {
+  padding-bottom: 60px;
+  border-bottom: 1px solid gray ;
+}
+
+.question .request {
+  padding: 45px 0;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+
+.request .fa-solid {
+  color: black;
+  position: absolute;
+  right: 40px;
+}
