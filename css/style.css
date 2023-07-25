@@ -96,6 +96,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  opacity: 10%;
+}
+
 .nav-button button {
   padding: 5px 10px;
 }
@@ -496,6 +500,10 @@ footer {
 .column li a {
   text-decoration: none;
   color: white;
+}
+
+.column li a:hover {
+  text-decoration: underline;
 }
 
 footer hr {
