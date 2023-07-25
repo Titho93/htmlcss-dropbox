@@ -426,3 +426,21 @@ h4 {
   width: 100px;
   margin-top: 50px;
 }
+
+.trial .container-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.trial-bio {
+  padding:  130px 0;
+  width: 500px;
+}
+
+.trial button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 15px 60px;
+}
