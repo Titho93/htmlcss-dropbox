@@ -500,3 +500,13 @@ footer hr {
   width: 120px;
   color: white;
 }
+
+/* Footer-bottom  */
+
+.footer-bottom {
+  padding: 50px 0;
+}
+
+.footer-bottom span {
+  color: white;
+}
