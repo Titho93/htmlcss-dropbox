@@ -128,10 +128,11 @@ button {
   border: none;
   cursor: pointer;
   display: inline-block;
+  transition: opacity 2s;
 }
 
 button:hover {
-  opacity: 10%;
+  opacity: 40%;
 }
 
 .nav-button button {
@@ -411,6 +412,7 @@ h4 {
   width: 50%;
   height: 50%;
   position: relative;
+  transition: opacity 2s;
 }
 
 .square img {
@@ -455,7 +457,7 @@ h4 {
 }
 
 .square:active {
-  opacity: 70%;
+  opacity: 60%;
 }
 
 /* Trial  */
@@ -518,6 +520,10 @@ footer {
 .column h5 {
   color: white;
   padding-bottom: 35px;
+}
+
+.column:hover h5 {
+  color: blue;
 }
 
 .column li {
